@@ -1,8 +1,0 @@
-#Ignoring files
-/__pycache__
-/i18n
-/models
-/views
-/__init__.py
-__manifest__.py
-.gitignore
