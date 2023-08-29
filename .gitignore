@@ -1,0 +1,3 @@
+# Ignore files
+__pycache__/
+./models/__pycache__/
