@@ -5,8 +5,8 @@ import re
 class ProductTemplate(models.Model):
     _inherit = 'product.template'
 
-    old_code = fields.Char(string='Old code')
-    provider_code = fields.Char(string='Provider code')
+    old_code = fields.Char(string='Old code', copy=False)
+    provider_code = fields.Char(string='Provider code', copy=False)
     custom_code = fields.Char(string='Custom code')
 
     @api.constrains('custom_code')
